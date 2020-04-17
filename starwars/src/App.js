@@ -29,9 +29,10 @@ useEffect(() => {
   })
   .catch(error => console.log('Something is off!', error))
 }, [])
+
   return (
     <div className="App">
-      <h1 className="Header">Characters</h1>
+      <h1 className="Header">React Wars</h1>
       <Wrap>
         {character.map(ch => 
           <Characters 
