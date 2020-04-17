@@ -4,14 +4,6 @@ import StarWarsList from "./components/StarWarsList.js";
 import "../src/styles.css";
 
 
-
-const Wrap = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-`;
-
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
