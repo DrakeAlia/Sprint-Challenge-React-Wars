@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Characters from './components/Character';
+import Characters from './components/CharacterCard';
 import Axios from 'axios';
 import styled from 'styled-components';
 
@@ -23,7 +23,7 @@ const App = () => {
 const [character, setCharacter] = useState([]);
 
 useEffect(() => {
-  axios.get('https://swapi.co/api/people/')
+  Axios.get('https://swapi.co/api/people/')
   .then(response => {
     setCharacter(response.data.results);
   })
