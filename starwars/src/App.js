@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import StarWarsList from "./components/StarWarsList.js";
-import "../src/styles.css";
+
 
 
 const App = () => {
